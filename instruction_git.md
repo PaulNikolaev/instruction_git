@@ -40,6 +40,8 @@ git branch
 
 Команда **git branch -d <branch_name>** удаляет ветку.
 
+Команда **git branch -f <branch_name> <commit_name>** перемещает голову ветки в нужный коммит.
+
 ### Слияние веток:
 ```sh
 git merge
